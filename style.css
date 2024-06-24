@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    border: border-box;
+    font-family: Arial;
+}
+
+
+
+/* this is logo in navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 80px;
+}
+
+.logo {
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+/* this is hover effect in logo of navbar */
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid rgb(142, 141, 141);
+    border-radius: 6px;
+}
+
+
+/* location div in navbar */
+
+.nav-location{
+    cursor: pointer;
+}
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 30px;
+    
+}
+
+.add-second {
+    font-size: 1rem;
+}
+
+.add-icon{
+    gap:5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+
+
+/* This is search in nav bar */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #febd68;
+    width: 620px;
+    height: 40px; 
+    border-radius: 4px;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 60px;
+    text-align: center;
+    border-radius: 4px 0px 0px 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.3rem;
+    color: #0f1111;
+}
+.search-icon:hover{
+    background-color: rgba(182, 126, 21, 0.774);
+    border-radius: 4px;
+    color: #0f1111;
+}
+
+
+
+/* This is a flag section in navbar */
+
+.flag{
+    width: 68px;
+    height: 33px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.icon1 img{
+    width: 20px;
+}
+
+
+/*  This a sign in section in nevbar */
+
+.sign-in{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.first-sign{
+    font-size: 0.85rem;
+
+}
+
+.second-sign{
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+
+/* this is last section of nav that is cart */
+
+.nav-cart{
+    display: flex;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.cart{
+    font-size: 30px;
+    color: rgba(235, 160, 20, 0.903);
+}
+
+.cart-p{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 0.9px;
+    font-weight: 700;
+}
+
+
+
+
+
+/* second nav */
+
+.panel{
+    height: 39px;
+    background-color: #222f3d;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all{
+    cursor: pointer;
+    padding: 10px;
+}
+
+.panel-opt{
+    width: 80%;
+    font-size: 0.85rem;
+
+}
+
+.panel-opt p{
+    display: inline;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+
+/* This is hero section. now we start the body part of the project. */
+
+.hero-section{
+    background-image: url("hero_image.jpg");
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.hero-msg{
+    background-color: white;
+    font-size: 0.85rem;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin-top: 400px;
+    padding: 10px 14px;
+    
+}
+
+.hero-msg a{
+    color: #007185;
+}
+
+.hero-msg a:hover{
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+
+/* shop-section */
+
+
+.shop-section{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+
+
+
+.box{
+
+    height: 40vh;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-top: 5px;
+    width:20vw;  
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+    
+}
+
+.h1{
+    font-weight: 900;
+}
+
+.image img{
+    height: 32vh;
+    width: 18vw;
+    border-radius: 6px;
+    cursor: pointer;
+  
+}
+
+.shop-now{
+    color: #007185;
+    cursor: pointer;
+}
+.shop-now:hover{
+    color: red;
+}
+
+
+
+
+
+
+/* now it's time for styling for footer side */
+
+
+
+/* this is footer pannel 1 */
+
+.foot-pannel1{
+    margin-top: 250px;
+    height: 49px;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+}
+
+.foot-pannel1:hover{
+    background-color: #56677c;
+}
+
+
+/* this is footer pannel 2 */
+
+.foot-pannel2{
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 100px;
+    /* gap: 10px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 20px; */
+  
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    row-gap: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.foot span{
+    font-weight: 700;
+}
+
+.foot a{
+    color: white;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.foot a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+
+
+/* this is footer pannel 3 */
+
+.foot-pannel3{
+    background-color:#222f3d ;
+    border-top: 1px solid grey;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo{
+    background-image: url(amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    cursor: pointer;
+}
+
+
+.foot-pannel4{
+    background-color: #0f1111;
+    border-top: 1px solid grey;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.foot1 a{
+    color: white;
+    opacity: 0.8;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 0.9rem;
+}
+
+.foot1 a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+.foot2 p{
+    padding-top: 5px;
+    opacity: 0.8;
+    font-size: 0.9rem;
+    color: white;
+}
